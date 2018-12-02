@@ -23,7 +23,7 @@ public class Application {
         SpringApplication.run(Application.class, args);
 
         long startTime = System.currentTimeMillis();
-        System.out.println("программа выполняласьx " + startTime+ " миллисекунд");
+
         String filename = "C:/test/video/videoplayback.mp4";
         File outdir = new File("c:/test/picture");
         IContainer container = IContainer.make();
@@ -109,7 +109,7 @@ public class Application {
         }
 
         long timeSpent = System.currentTimeMillis() - startTime;
-        System.out.println("программа выполняласьx " + timeSpent + " миллисекунд");
+        System.out.println("программа выполнялась " + timeSpent + " миллисекунд");
     }
 
 
