@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/gs-spring-boot.iml" filepath="$PROJECT_DIR$/gs-spring-boot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../api.gateway/gs-spring-boot (1).iml" filepath="$PROJECT_DIR$/../api.gateway/gs-spring-boot (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/../api.statistic/gs-spring-boot (2).iml" filepath="$PROJECT_DIR$/../api.statistic/gs-spring-boot (2).iml" />
+      <module fileurl="file://$PROJECT_DIR$/../api.statonline/gs-spring-boot (3).iml" filepath="$PROJECT_DIR$/../api.statonline/gs-spring-boot (3).iml" />
+      <module fileurl="file://$PROJECT_DIR$/../scheduler/gs-spring-boot (4).iml" filepath="$PROJECT_DIR$/../scheduler/gs-spring-boot (4).iml" />
+    </modules>
+  </component>
+</project>

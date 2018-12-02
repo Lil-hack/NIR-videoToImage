@@ -1,0 +1,48 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title th:title="#{title}"></title>
+    <meta charset="UTF-8"/>
+</head>
+<body>
+    <h2 th:text="#{index.title}"></h2>
+    <table>
+        <tbody>
+            <tr>
+                <td th:text="#{index.order.get.by.id.text}"></td>
+                <td th:text="#{index.order.get.by.id.method}"></td>
+                <td th:text="#{index.order.get.by.id.url}"></td>
+            </tr>
+
+            <tr>
+                <td th:text="#{index.order.find.all.text}"></td>
+                <td th:text="#{index.order.find.all.method}"></td>
+                <td th:text="#{index.order.find.all.url}"></td>
+            </tr>
+
+            <tr>
+                <td th:text="#{index.order.save.order.text}"></td>
+                <td th:text="#{index.order.save.order.method}"></td>
+                <td th:text="#{index.order.save.order.url}"></td>
+            </tr>
+
+            <tr>
+                <td th:text="#{index.order.edit.order.text}"></td>
+                <td th:text="#{index.order.edit.order.method}"></td>
+                <td th:text="#{index.order.edit.order.url}"></td>
+            </tr>
+
+            <tr>
+                <td th:text="#{index.order.delete.order.text}"></td>
+                <td th:text="#{index.order.delete.order.method}"></td>
+                <td th:text="#{index.order.delete.order.url}"></td>
+            </tr>
+
+            <tr>
+                <td th:text="#{index.customer.add.to.order.text}"></td>
+                <td th:text="#{index.customer.add.to.order.method}"></td>
+                <td th:text="#{index.customer.add.to.order.url}"></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
